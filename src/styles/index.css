@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+
+body {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  background-color: #ECECEC;
+
+  height: 100%;
+  width: 100%;
+
+  font-family: Commissioner;
+  font-size: 24px;
+  color: black;
+}
+a{
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-align: center;
+  color: black;
+}
+a:hover{
+  color: #F54242;
+}
