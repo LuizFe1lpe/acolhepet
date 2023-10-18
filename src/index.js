@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css';
+
 import App from './components/App';
+import MainPage from './components/MainPage';
+
 
 import {RouterProvider, createBrowserRouter} from "react-router-dom";
 const router = createBrowserRouter([
@@ -9,7 +12,10 @@ const router = createBrowserRouter([
     path: "/",
     element: App(),
   },
-
+  {
+    path: "/main",
+    element: MainPage(),
+  },
   /*
   {
     path: "/profile",
