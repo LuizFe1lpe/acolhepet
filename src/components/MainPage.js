@@ -1,6 +1,8 @@
+import SideMenu from "./SideMenu";
+
 function MainPage(){
     return(
-        <h1>Hello World</h1>
+        <SideMenu></SideMenu>
     );
 }
 

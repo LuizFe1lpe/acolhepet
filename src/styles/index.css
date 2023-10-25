@@ -3,9 +3,6 @@
 body {
   display: flex;
 
-  justify-content: center;
-  align-items: center;
-
   margin: 0;
   background-color: #ECECEC;
 
@@ -15,13 +12,4 @@ body {
   font-family: Commissioner;
   font-size: 24px;
   color: black;
-}
-a{
-  cursor: pointer;
-  text-decoration-line: underline;
-  text-align: center;
-  color: black;
-}
-a:hover{
-  color: #F54242;
 }
