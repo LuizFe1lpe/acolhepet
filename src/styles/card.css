@@ -1,0 +1,58 @@
+.card{
+    background-color: white;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 1% 0 0 0;
+    width: min-content;
+
+    cursor: pointer;
+}
+.image-holder{
+    display: flex;
+}
+.info-container{
+    display: flex;
+    flex-direction: row;
+}
+.info1{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 5px 5px;
+
+    text-align: start;
+}
+.info2{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px 5px 0;
+    text-align: end;
+}
+.pet-thumbnail{
+    margin: 0;
+    width: auto;
+}
+
+.genre{
+    width: 30px;
+    height: 30px;
+
+    align-self: flex-end;
+    margin: 0;
+}
+.pet-name{
+    font-size: 22px;
+    font-weight: bold;
+}
+.location{
+    color: gray;
+}
+
+p{
+    font-size: 18px;
+    margin: 0;  
+    width: max-content;
+    font-weight: light;
+}

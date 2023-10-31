@@ -1,0 +1,42 @@
+.search{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    background-color: #E1AF61;
+    border: solid 5px white;
+    border-radius: 20px;
+
+    height: 90px;
+    width: 1000px;
+
+    margin: 1% 0 0 0;
+}
+
+.search input{
+    align-self: center;
+    margin: 0;
+
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+
+    height: 40px;
+
+    margin: 0 0 0 2%;
+}
+.search button{
+    align-self: center;
+
+    height: 50px;
+    width: 180px;
+
+    background-color: #F5A933;
+
+    font-size: 20px;
+    font-family: Commissioner;
+}
+.search input::placeholder{
+    color: gray;
+}

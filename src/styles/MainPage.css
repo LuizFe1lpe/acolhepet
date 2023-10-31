@@ -1,0 +1,7 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    margin: 1% 0 0 4%;
+}

@@ -22,7 +22,7 @@ function SideMenu(){
                 <ul>
                     <li><img src={iconeUsuario}></img><a>MEUS<br></br> DADOS</a></li>
                     <li><img src={iconePet}></img><a>MEUS<br></br> PETS</a></li>
-                    <li><img src={iconeHistorico}></img><a>ADOAÇÕES</a></li>
+                    <li><img src={iconeHistorico}></img><a>ADOÇÕES</a></li>
                     <li class="exit"><a onClick={routeChange}>SAIR</a></li>
                 </ul>
             </nav>
