@@ -18,6 +18,9 @@
 
     margin: 48px 0 0 0;
 }
+.exit:hover{
+    border: solid white 3px;
+}
 nav{
     margin: 8vh 0 0 4vw;
 }
@@ -34,7 +37,7 @@ ul{
 ul li{
     display: flex;
     flex-direction: row;
-    
+
     align-items: center;
     text-align: end;
 
@@ -50,6 +53,9 @@ ul li{
     margin: 0 0 25px 0;
     cursor: pointer;
 }
+ul li:hover{
+    border: solid white 3px;
+}
 ul a{
     color: white;
     text-decoration: none;
@@ -64,6 +70,7 @@ ul img{
 
     margin: 0 0 0 0;
 }
-a:hover{
-    color: black;
+ul a:hover{
+    color: white;
+    text-decoration: none;
 }

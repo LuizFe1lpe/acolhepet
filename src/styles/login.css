@@ -25,10 +25,11 @@ form a{
 }
 a{
     cursor: pointer;
-    text-decoration-line: underline;
     text-align: center;
     color: black;
-  }
+    text-decoration: none;
+}
   a:hover{
     color: #F54242;
+    text-decoration-line: underline;
   }

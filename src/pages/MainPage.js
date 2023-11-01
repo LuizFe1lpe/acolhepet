@@ -1,8 +1,8 @@
 import "../styles/MainPage.css"
-import SideMenu from "./SideMenu";
-import RerturnButton from "./ReturnButton";
-import SearchArea from "./SearchArea";
-import Card from "./Card";
+import SideMenu from "../components/SideMenu";
+import RerturnButton from "../components/ReturnButton";
+import SearchArea from "../components/SearchArea";
+import Card from "../components/Card";
 
 function MainPage(){
     return(
