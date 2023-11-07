@@ -1,3 +1,8 @@
+@media (min-width: 1920px){
+    .profile{
+        margin: 50px 0 0 400px;
+    }
+}
 .profile{
     display: flex;
     flex-direction: column;

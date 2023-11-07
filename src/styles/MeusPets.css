@@ -1,0 +1,12 @@
+.top_buttons{
+    display: flex;
+}
+.cadastrarpet{
+    font-family: Commissioner;
+    font-size: 20px;
+
+    height: auto;
+    width: max-content;
+
+    margin: 10px 0 0 5px;
+}

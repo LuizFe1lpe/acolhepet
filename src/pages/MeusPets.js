@@ -1,6 +1,7 @@
 import "../styles/MainPage.css"
 import SideMenu from "../components/SideMenu";
 import RerturnButton from "../components/ReturnButton";
+import "../styles/MeusPets.css";
 
 function MeusPets(){
     return(
@@ -9,8 +10,9 @@ function MeusPets(){
             <SideMenu></SideMenu>
         </div>
         <div class="content">
-            <div>
+            <div class="top_buttons">
                 <RerturnButton></RerturnButton>
+                <button class="cadastrarpet">+ Cadastrar Pet</button>
             </div>
             <div>
 

@@ -10,6 +10,7 @@ import Adocoes from './pages/Adocoes';
 import MeusPets from './pages/MeusPets';
 
 import {RouterProvider, createBrowserRouter} from "react-router-dom";
+import Singup from './pages/Singup';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/main",
     element: MainPage(),
+  },
+  {
+    path: "singup",
+    element: Singup(),
   },
   {
     path: "/profile",

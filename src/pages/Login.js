@@ -1,6 +1,6 @@
-import Logo from './Logo';
-import LoginText from './LoginText';
-import BotaoLogin from './ButtonLogin'
+import Logo from '../components/Logo';
+import LoginText from '../components/LoginText';
+import BotaoLogin from '../components/ButtonLogin'
 
 function Login(){
     return(
