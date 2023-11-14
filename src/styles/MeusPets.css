@@ -4,9 +4,24 @@
 .cadastrarpet{
     font-family: Commissioner;
     font-size: 20px;
-
-    height: auto;
+    
+    height: 50px;
     width: max-content;
 
-    margin: 10px 0 0 5px;
+    margin: 48px 0 0 5px;
+}
+.meuspets{
+    display: flex;
+    flex-direction: column;
+}
+.meuspets p{
+    margin: 20px 0 0 50px;
+    font-size: larger;
+}
+.pets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 10px 0 0 80px;
 }

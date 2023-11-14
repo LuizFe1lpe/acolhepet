@@ -6,28 +6,32 @@ import iconePet from "../assets/icone_pet.png";
 import iconeHistorico from "../assets/icone_histórico.png";
 
 import { useNavigate } from "react-router-dom";
-let navigate;
 
 function SideMenu(){
-    navigate = useNavigate(); 
+    
+    let navigate = useNavigate(); 
+    const routeChange = (p) =>{
+        navigate(p);
+    }
+
     return(
         <div class="side-container">
             <nav>
                 <Logo></Logo>
                 <ul>
-                    <li onClick={navigate("/profile")}>
-                        <img src={iconeUsuario}></img>
+                    <li onClick={() => routeChange('/profile')}>
+                        <img src={iconeUsuario} ></img>
                         <a>MEUS<br></br> DADOS</a>
                     </li>
-                    <li onClick={navigate("/meuspets")}>
+                    <li onClick={() => routeChange('/meuspets')}>
                         <img src={iconePet}></img>
                             <a>MEUS<br></br> PETS</a>
                         </li>
-                    <li onClick={navigate("/adocoes")}>
+                    <li onClick={() => routeChange('/adocoes')}>
                         <img src={iconeHistorico}></img>
                         <a>ADOÇÕES</a>
                     </li>
-                    <li class="exit" onClick={navigate("/")}>
+                    <li class="exit" onClick={() => routeChange('/')}>
                         <a>SAIR</a>
                     </li>
                 </ul>

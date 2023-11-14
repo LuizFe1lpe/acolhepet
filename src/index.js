@@ -8,6 +8,7 @@ import MainPage from './pages/MainPage';
 import Profile from './pages/Profile';
 import Adocoes from './pages/Adocoes';
 import MeusPets from './pages/MeusPets';
+import cadastrapetPet from './pages/CadastarPet';
 
 import {RouterProvider, createBrowserRouter} from "react-router-dom";
 import Singup from './pages/Singup';
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: "/adocoes",
     element: Adocoes(),
+  },
+  {
+    path: "/cadastrapet",
+    element: cadastrapetPet(),
   }
 ]);
 

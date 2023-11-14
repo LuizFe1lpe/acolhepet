@@ -1,0 +1,21 @@
+.empty{
+    background-color: #B6B6B6;
+    border-radius: 20px;
+
+    height: 400px;
+    width: 250px;
+    margin: 0 20px 0 0;
+
+    cursor: pointer;
+}
+.empty img{
+    display: flex;
+
+    height: 60px;
+    width: 60px;
+
+    margin: 60% auto auto auto;
+}
+.empty:hover{
+    box-shadow: 0px 4px 4px gray;
+}
