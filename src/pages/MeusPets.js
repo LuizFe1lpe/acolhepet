@@ -3,8 +3,7 @@ import SideMenu from "../components/SideMenu";
 import RerturnButton from "../components/ReturnButton";
 import Emptypet from "../components/emptypet";
 import "../styles/MeusPets.css";
-
-import { useNavigate } from "react-router-dom";
+import Cpet from "../components/Cpet";
 
 function MeusPets(){
     return(
@@ -15,7 +14,7 @@ function MeusPets(){
             <div class="content">
                 <div class="top_buttons">
                     <RerturnButton></RerturnButton>
-                    <button class="cadastrarpet" onClick={''}>+ Cadastrar Pet</button>
+                    <Cpet></Cpet>
                 </div>
                 <div class="meuspets">
                     <p>MeusPets</p>

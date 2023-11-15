@@ -1,3 +1,18 @@
+.termos{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+
+    margin: 0;
+
+    align-items: center;
+}
+.termos input{
+    height: 40px;
+    width: 40px;
+    margin: 0;
+}
 input{
-    height: 55px;
+    height: 50px;
+    margin: 5px 0 10px 0;
 }

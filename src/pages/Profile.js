@@ -32,13 +32,13 @@ function Profile(){
                             <p>tadeusilva@exemplo.com</p>
                             <p>(15)99999-8888</p>
                             <p>Kleber Vicente Lima</p>
-                            <p>Sei lá onde</p>
-                            <p>445</p>
-                            <p>Sorocaba</p>
-                            <p>18.999.777</p>
+                            <p>-------------</p>
+                            <p>-------------</p>
+                            <p>-------------</p>
+                            <p>-------------</p>
                         </div>
                     </div>
-                    <button>EDITAR</button>
+                    <button>Editar</button>
                 </div>
             </div>
         </div>
