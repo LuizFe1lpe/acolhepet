@@ -15,7 +15,7 @@ function SideMenu(){
     }
 
     return(
-        <div class="side-container">
+        <div className="side-container">
             <nav>
                 <Logo></Logo>
                 <ul>
@@ -31,7 +31,7 @@ function SideMenu(){
                         <img src={iconeHistorico}></img>
                         <a>ADOÇÕES</a>
                     </li>
-                    <li class="exit" onClick={() => routeChange('/')}>
+                    <li className="exit" onClick={() => routeChange('/')}>
                         <a>SAIR</a>
                     </li>
                 </ul>

@@ -38,6 +38,10 @@
 .cadastrapet2{
     width: 250px;
     font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    top:0
 }
 .cadastrapet2 select{
     width: 150px;
@@ -53,6 +57,17 @@
     border-style: none;
     margin: 0 10px 0 0;
     padding: 0;
+    top: 0;
+}
+select{
+	appearance: none;
+    border-radius: 20px;
+    border: solid 2px #B3B3B3;
+    background-color: #B3B3B3;
+    color: white;
+
+    height: 30px;
+    width: max-content;
 }
 .castrado input{    
     width: 30px;

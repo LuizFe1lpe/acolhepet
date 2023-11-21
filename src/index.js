@@ -9,6 +9,7 @@ import Profile from './pages/Profile';
 import Adocoes from './pages/Adocoes';
 import MeusPets from './pages/MeusPets';
 import cadastrapetPet from './pages/CadastarPet';
+import Fred from './pages/Fred';
 
 import {RouterProvider, createBrowserRouter} from "react-router-dom";
 import Singup from './pages/Singup';
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
   {
     path: "/cadastrapet",
     element: cadastrapetPet(),
+  }
+  ,
+  {
+    path: "/fred",
+    element: Fred(),
   }
 ]);
 

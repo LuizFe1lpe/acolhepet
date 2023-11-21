@@ -1,8 +1,14 @@
 import '../styles/card.css'
+import { useNavigate } from "react-router-dom";
 
 function Card(){
+    let navigate = useNavigate(); 
+    const routeChange = (p) =>{
+        navigate(p);
+    }
+
     return(
-        <div class="card">
+        <div class="card" onClick={() => routeChange('/fred')}>
             <div class="image-holder">
                 <img src={require("../assets/fred.png")} class="pet-thumbnail"></img>
             </div>

@@ -7,7 +7,7 @@ function RerturnButton(){
         navigate(p);
     }
     return(
-        <a class="return" onClick={() => routeChange('/main')}>
+        <a className="return" onClick={() => routeChange('/main')}>
             <img src={require("../assets/icone_voltar.png")} ></img>
         </a>
     );
