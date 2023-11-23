@@ -10,8 +10,9 @@ function Adocoes(){
             <SideMenu></SideMenu>
         </div>
         <div class="content">
-            <div>
+            <div class="top_buttons">
                 <RerturnButton></RerturnButton>
+                <button class="cadastrarpet">Gerar Relatórios</button>
             </div>
             <div class="adocoes">
                 <p>Nenhuma adoção realizada ainda :(</p>

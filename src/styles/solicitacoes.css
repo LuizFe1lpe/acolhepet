@@ -1,0 +1,35 @@
+.pedido{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    
+    vertical-align: middle;
+
+    border-radius: 120px;
+    margin: 10px 0 10px 0;
+
+    height: max-content;
+    width: 900px;
+
+    padding: 10px 0 10px 0;
+}
+.pedidoinfo{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+}
+.pedidobtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pedidobtns button{
+    font-size: 22px;
+    height: min-content;
+    width: max-content;
+    font-family: Commissioner;
+    margin: 0;
+}

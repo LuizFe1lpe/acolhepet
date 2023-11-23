@@ -10,6 +10,7 @@ import Adocoes from './pages/Adocoes';
 import MeusPets from './pages/MeusPets';
 import cadastrapetPet from './pages/CadastarPet';
 import Fred from './pages/Fred';
+import Soli from './pages/Soli';
 
 import {RouterProvider, createBrowserRouter} from "react-router-dom";
 import Singup from './pages/Singup';
@@ -41,11 +42,14 @@ const router = createBrowserRouter([
   {
     path: "/cadastrapet",
     element: cadastrapetPet(),
-  }
-  ,
+  },
   {
     path: "/fred",
     element: Fred(),
+  },
+  {
+    path: "/solicitacoes",
+    element: Soli(),
   }
 ]);
 
