@@ -31,7 +31,7 @@ function SideMenu(){
                         <img src={iconeHistorico}></img>
                         <a>ADOÇÕES</a>
                     </li>
-                    <li onClick={() => routeChange('/adocoes')}>
+                    <li onClick={() => routeChange('/solicitacoes')}>
                         <a>SOLICITAÇÕES</a>
                     </li>
                     <li className="exit" onClick={() => routeChange('/')}>
