@@ -14,13 +14,13 @@ function Soli(){
                 </div>
                 <div className="pedido">
                     <div class="pedidoinfo">
-                        <p>Dono: Marcos</p>
+                        <p>Tutor: Marcos</p>
                         <p>Data: 01/11/2023</p>
                         <p>Nome do pet: Faisca</p>
                         <p>Raça: Beagle</p>
                     </div>
                     <div class="pedidobtns">
-                        <button>Ver perdil do Dono</button>
+                        <button>Ver perfil do Dono</button>
                         <button>Visualizar Pet</button>
                         <button id="aceitar">Aceitar</button>
                         <button id="recusar">Recusar</button>

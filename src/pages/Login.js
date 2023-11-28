@@ -18,7 +18,7 @@ function Login(){
             <LoginText typeText="password" placeholderText="senha" idname="senha"></LoginText>
             <BotaoLogin></BotaoLogin>
             <a href='#' target='_self' onClick={() => routeChange('/singup')}>não tenho cadastro</a>
-            <a href='#'target='_self'>esque ciminha senha</a>
+            <a href='#'target='_self'>esqueci minha senha</a>
         </form>
     );
 }
